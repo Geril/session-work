@@ -8,6 +8,7 @@ body {
 #wrapper {
     box-sizing: border-box;
     padding: 25px;
+    width: 95%;
     background: rgba(31, 31, 31, 0.54);
     border: 1px solid rgba(208, 166, 16, 0.14);
     border-radius: 5px;
@@ -27,6 +28,32 @@ body {
     display: block;
     text-align: center;
     font-size: 85px;
+    padding-top: 35px;
+    padding-bottom: 75px;
+    font-weight: bold;
+    color: #d0a610;
+}
+.current-roll {
+    display: block;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+button {
+    outline: 0;
+    font-size: 20px;
+    border-radius: 4px;
+    color: #fff;
+    background: #AA8502;
+    padding: 7px 15px;
+    border: 1px solid #AA8502;
+    min-width: 80px;
+    margin: 10px;
+}
+button:hover,
+button:focus,
+button:active {
+    cursor: pointer;
+    outline: 0;
 }
 @media screen and (min-width: 700px) {
     #wrapper {
@@ -37,5 +64,8 @@ body {
 @media screen and (min-width: 500px) {
     .half {
         width: 50%;
+    }
+    button {
+        margin-bottom: 0px;
     }
 }
