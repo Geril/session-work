@@ -1,0 +1,41 @@
+body {
+    background: url('../img/forestbridge.jpg') no-repeat;
+    background-size: cover;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+}
+/* d0a610 */
+#wrapper {
+    box-sizing: border-box;
+    padding: 25px;
+    background: rgba(31, 31, 31, 0.54);
+    border: 1px solid rgba(208, 166, 16, 0.14);
+    border-radius: 5px;
+    font-size: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.half {
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+}
+.players-number {
+    display: block;
+    text-align: center;
+    font-size: 85px;
+}
+@media screen and (min-width: 700px) {
+    #wrapper {
+        width: 700px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .half {
+        width: 50%;
+    }
+}
