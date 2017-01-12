@@ -5,6 +5,7 @@ body {
     color: #fff;
 }
 /* d0a610 */
+
 #wrapper {
     box-sizing: border-box;
     padding: 25px;
@@ -18,12 +19,14 @@ body {
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
+
 .half {
     width: 100%;
     display: inline-block;
     font-size: 14px;
     text-align: center;
 }
+
 .players-number {
     display: block;
     text-align: center;
@@ -33,6 +36,7 @@ body {
     font-weight: bold;
     color: #d0a610;
 }
+
 .current-roll {
     display: block;
     font-size: 20px;
@@ -50,12 +54,14 @@ button {
     min-width: 80px;
     margin: 10px;
 }
+
 button:hover,
 button:focus,
 button:active {
     cursor: pointer;
     outline: 0;
 }
+
 @media screen and (min-width: 700px) {
     #wrapper {
         width: 700px;
@@ -66,6 +72,7 @@ button:active {
     .half {
         width: 50%;
     }
+
     button {
         margin-bottom: 0px;
     }
